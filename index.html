@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drag and Drop Example</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h2>Drag and Drop</h2>
+
+  <div class="container" id="container1">
+    <div class="item" draggable="true" data-item-id="item1">Item 1</div>
+    <div class="item" draggable="true" data-item-id="item2">Item 2</div>
+    <div class="item" draggable="true" data-item-id="item3">Item 3</div>
+  </div>
+
+  <div class="container droppable" id="container2"></div>
+
+  <div class="success-message" id="successMessage"></div>
+
+  <button onclick="resetContainers()">Reset</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
